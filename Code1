@@ -1,0 +1,11 @@
+<?php	
+	
+	global $wp_query;
+    $current_page_id = $wp_query->post->ID;   
+?>	
+
+   <?php if($current_page_id == '10'){ ?> 
+  	
+		   <?php echo "Test"; ?>
+      
+   <?php } ?> 
